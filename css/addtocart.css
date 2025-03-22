@@ -1,0 +1,118 @@
+/* Cart Container */
+.container_cart {
+    max-width: 600px;
+    margin: 150px auto 350px;
+    background: var(--color-bg1);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.container_cart h1 {
+    font-size: 36px;
+    color: var(--color-white);
+    margin-bottom: 15px;
+}
+
+/* Cart Items List */
+#cart-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cart-items li {
+    background: var(--color-white);
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #333;
+}
+
+/* Total Price */
+#cart-total {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Available Balance */
+#available-balance {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4CAF50; /* Green color for balance */
+    margin-top: 20px;
+    text-align: left;
+}
+
+/* Buttons */
+.buy-all, .clear-cart, .remove-item {
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buy-all {
+    background-color: #28a745; /* Green */
+}
+
+.buy-all:hover {
+    background-color: #218838;
+}
+
+.clear-cart {
+    background-color: #dc3545; /* Red */
+}
+
+.clear-cart:hover {
+    background-color: #b52a3a;
+}
+
+.remove-item {
+    background-color: #ff4d4d;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.remove-item:hover {
+    background-color: #d43f3f;
+}
+
+/* "Back to Courses" Link */
+.container_cart a {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 18px;
+    color: var(--color-white);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container_cart a:hover {
+    text-decoration: underline;
+    color: var(--color-bg2);
+}
+
+/* Cart Summary (Subtotal, Tax, Discount) */
+.cart-summary {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.cart-summary p {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+/* Cart Actions */
+.cart-actions {
+    margin-top: 20px;
+}
